@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# name: discourse-welcome
+# name: discourse-welcome-plugin
 # about: Sends a personal welcome PM from a specified user when new users register, and posts a welcome message in group chat channels when users join groups.
 # version: 0.1.0
 # authors: Pat
@@ -11,7 +11,7 @@ enabled_site_setting :welcome_plugin_enabled
 
 after_initialize do
   module ::DiscourseWelcome
-    PLUGIN_NAME = "discourse-welcome"
+    PLUGIN_NAME = "discourse-welcome-plugin"
   end
 
   # ===========================================
