@@ -1,0 +1,10 @@
+en:
+  site_settings:
+    welcome_plugin_enabled: "Enable the Welcome plugin (PM on registration + group chat messages)"
+    welcome_pm_enabled: "Send a personal welcome PM to new users"
+    welcome_pm_sender_username: "Username that sends the welcome PM (e.g. Pat)"
+    welcome_pm_delay_minutes: "Minutes to wait before sending the welcome PM (gives user time to look around)"
+    welcome_pm_title: "Subject line for the welcome PM. Use {username} and {name} as placeholders."
+    welcome_pm_body: "Body of the welcome PM. Use {username} and {name} as placeholders. Supports Markdown."
+    welcome_group_chat_enabled: "Post a welcome message in group chat channels when users join groups"
+    welcome_group_chat_message: "Chat message when user joins a group. Use {username}, {name}, and {group} as placeholders."

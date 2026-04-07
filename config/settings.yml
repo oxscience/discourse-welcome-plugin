@@ -1,0 +1,53 @@
+plugins:
+  welcome_plugin_enabled:
+    default: true
+    client: false
+
+  welcome_pm_enabled:
+    default: true
+    client: false
+
+  welcome_pm_sender_username:
+    default: "Pat"
+    type: string
+    client: false
+
+  welcome_pm_delay_minutes:
+    default: 5
+    type: integer
+    min: 0
+    max: 1440
+    client: false
+
+  welcome_pm_title:
+    default: "Willkommen bei Out Of The Box, {name}!"
+    type: string
+    client: false
+
+  welcome_pm_body:
+    default: |
+      Hey {name}! :wave:
+
+      Ich bin Pat, der Gründer von Out Of The Box Science. Schön, dass du dabei bist!
+
+      Hier ein paar Tipps für den Start:
+
+      - **Stell dich kurz vor** — die Community freut sich, dich kennenzulernen
+      - **Schau dich um** — es gibt Kurse, Diskussionen und jede Menge Wissen
+      - **Frag einfach** — keine Frage ist zu basic
+
+      Wenn du Fragen hast oder Hilfe brauchst, schreib mir einfach hier zurück.
+
+      Viel Spaß!
+      Pat
+    type: text
+    client: false
+
+  welcome_group_chat_enabled:
+    default: true
+    client: false
+
+  welcome_group_chat_message:
+    default: "Willkommen in der Gruppe, @{username}! :tada: Schön, dass du dabei bist. Stell dich gerne kurz vor!"
+    type: string
+    client: false
