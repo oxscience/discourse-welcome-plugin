@@ -1,0 +1,90 @@
+{
+  "set_locale_from_accept_language_header": {
+    "value": "false",
+    "default": "false"
+  },
+  "top_menu": {
+    "value": "categories|latest|new|unread",
+    "default": "latest|new|unread|hot|categories"
+  },
+  "post_menu": {
+    "value": "read|like|copyLink|flag|edit|bookmark|delete|admin|reply",
+    "default": "read|like|copyLink|flag|edit|bookmark|delete|admin|reply"
+  },
+  "post_menu_hidden_items": {
+    "value": "flag|bookmark|edit|delete|admin",
+    "default": "flag|bookmark|edit|delete|admin"
+  },
+  "desktop_category_page_style": {
+    "value": "categories_boxes",
+    "default": "categories_and_latest_topics"
+  },
+  "mobile_category_page_style": {
+    "value": "categories_boxes",
+    "default": "categories_with_featured_topics"
+  },
+  "show_badges_in_post_header": {
+    "value": "true",
+    "default": "true"
+  },
+  "show_user_menu_avatars": {
+    "value": "true",
+    "default": "false"
+  },
+  "email_custom_headers": {
+    "value": "Auto-Submitted: auto-generated",
+    "default": "Auto-Submitted: auto-generated"
+  },
+  "email_in_spam_header": {
+    "value": "none",
+    "default": "none"
+  },
+  "navigation_menu": {
+    "value": "sidebar",
+    "default": "sidebar"
+  },
+  "default_navigation_menu_categories": {
+    "value": "4|16|11|17|6|7|9",
+    "default": ""
+  },
+  "default_navigation_menu_tags": {
+    "value": "level-1|level-2|level-3",
+    "default": ""
+  },
+  "default_sidebar_switch_panel_position": {
+    "value": "bottom",
+    "default": "bottom"
+  },
+  "header_dropdown_category_count": {
+    "value": "8",
+    "default": "8"
+  },
+  "default_sidebar_link_to_filtered_list": {
+    "value": "false",
+    "default": "false"
+  },
+  "default_sidebar_show_count_of_new_items": {
+    "value": "true",
+    "default": "false"
+  },
+  "chat_separate_sidebar_mode": {
+    "value": "always",
+    "default": "never"
+  },
+  "ai_bot_add_to_header": {
+    "value": "true",
+    "default": "false"
+  },
+  "sidebar_show_upcoming_events": {
+    "value": "true",
+    "default": "true"
+  },
+  "discourse_math_enable_menu": {
+    "value": "true",
+    "default": "true"
+  },
+  "oauth2_send_auth_header": {
+    "value": "true",
+    "default": "true"
+  }
+}

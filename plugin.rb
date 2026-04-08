@@ -91,43 +91,7 @@ after_initialize do
     )
   end
 
-  # ===========================================
-  # Job: Send Welcome PM
-  # ===========================================
-  module Jobs
-    class SendWelcomePm < ::Jobs::Base
-      def execute(args)
-        user = User.find_by(id: args[:user_id])
-        sender = User.find_by(id: args[:sender_id])
-        return unless user && sender
-
-        PostCreator.create!(
-          sender,
-          title: args[:title],
-          raw: args[:body],
-          archetype: Archetype.private_message,
-          target_usernames: [user.username],
-          skip_validations: true
-        )
-      end
-    end
-
-    class SendWelcomeGroupChat < ::Jobs::Base
-      def execute(args)
-        return unless defined?(Chat)
-
-        sender = User.find_by(id: args[:sender_id])
-        channel = Chat::Channel.find_by(id: args[:channel_id])
-        return unless sender && channel
-
-        Chat::MessageCreator.create(
-          chat_channel: channel,
-          user: sender,
-          content: args[:message]
-        )
-      rescue => e
-        Rails.logger.warn("DiscourseWelcome: Failed to send group chat: #{e.message}")
-      end
-    end
-  end
+  # Load job classes
+  require_relative "app/jobs/regular/send_welcome_pm"
+  require_relative "app/jobs/regular/send_welcome_group_chat"
 end

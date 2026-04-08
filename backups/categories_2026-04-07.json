@@ -1,0 +1,149 @@
+[
+  {
+    "id": 4,
+    "name": "Open Campus",
+    "slug": "austausch",
+    "parent_category_id": null,
+    "position": 0
+  },
+  {
+    "id": 26,
+    "name": "Health",
+    "slug": "health",
+    "parent_category_id": null,
+    "position": 1
+  },
+  {
+    "id": 18,
+    "name": "Symposien (Training & Therapie)",
+    "slug": "ox-symposien-pro",
+    "parent_category_id": 26,
+    "position": 2
+  },
+  {
+    "id": 6,
+    "name": "Prävention & Training",
+    "slug": "praevention-training",
+    "parent_category_id": 26,
+    "position": 3
+  },
+  {
+    "id": 9,
+    "name": "Therapie & Reha",
+    "slug": "therapie-rehabilitation",
+    "parent_category_id": 26,
+    "position": 4
+  },
+  {
+    "id": 24,
+    "name": "Ernährung",
+    "slug": "ernaehrung",
+    "parent_category_id": 26,
+    "position": 5
+  },
+  {
+    "id": 19,
+    "name": "Pain & Performance",
+    "slug": "pain-performance",
+    "parent_category_id": 26,
+    "position": 6
+  },
+  {
+    "id": 7,
+    "name": "Science",
+    "slug": "forschung-evidenz",
+    "parent_category_id": 26,
+    "position": 7
+  },
+  {
+    "id": 25,
+    "name": "Tech & KI",
+    "slug": "tech-ki",
+    "parent_category_id": null,
+    "position": 8
+  },
+  {
+    "id": 16,
+    "name": "Pro Teams",
+    "slug": "pro-teams",
+    "parent_category_id": null,
+    "position": 9
+  },
+  {
+    "id": 14,
+    "name": "TZ am Bült",
+    "slug": "tz-am-buelt",
+    "parent_category_id": 16,
+    "position": 10
+  },
+  {
+    "id": 5,
+    "name": "Werder",
+    "slug": "werder",
+    "parent_category_id": 16,
+    "position": 11
+  },
+  {
+    "id": 22,
+    "name": "MyBodyMind",
+    "slug": "mybodymind",
+    "parent_category_id": 16,
+    "position": 12
+  },
+  {
+    "id": 23,
+    "name": "Athl.Docks",
+    "slug": "athl-docks",
+    "parent_category_id": 16,
+    "position": 15
+  },
+  {
+    "id": 3,
+    "name": "OX Team",
+    "slug": "ox-team",
+    "parent_category_id": null,
+    "position": 16
+  },
+  {
+    "id": 1,
+    "name": "Nicht kategorisiert",
+    "slug": "nicht-kategorisiert",
+    "parent_category_id": null,
+    "position": 17
+  },
+  {
+    "id": 27,
+    "name": "Diskussion",
+    "slug": "diskussion",
+    "parent_category_id": 4,
+    "position": 18
+  },
+  {
+    "id": 28,
+    "name": "Ressourcen",
+    "slug": "ressourcen",
+    "parent_category_id": 4,
+    "position": 19
+  },
+  {
+    "id": 34,
+    "name": "Pats' Pain Science Notes",
+    "slug": "pats-pain-science-notes",
+    "parent_category_id": 26,
+    "position": 20
+  },
+  {
+    "id": 29,
+    "name": "OX News",
+    "slug": "ox-news",
+    "parent_category_id": 4,
+    "position": 20
+  },
+  {
+    "id": 31,
+    "name": "Roadmap",
+    "slug": "roadmap",
+    "parent_category_id": 4,
+    "position": 21
+  }
+]
