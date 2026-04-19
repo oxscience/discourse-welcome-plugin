@@ -15,9 +15,11 @@ after_initialize do
   end
 
   # ===========================================
-  # 1) Welcome PM when a new user is activated
+  # 1) Welcome PM on user's first real login
+  # (Fix: :user_activated is not emitted by Discourse. :user_first_logged_in
+  # is the right hook for a "new user has arrived" welcome message.)
   # ===========================================
-  on(:user_activated) do |user|
+  on(:user_first_logged_in) do |user|
     next unless SiteSetting.welcome_plugin_enabled
     next unless SiteSetting.welcome_pm_enabled
 
